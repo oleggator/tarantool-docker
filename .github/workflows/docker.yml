@@ -14,4 +14,4 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: oleggator/tarantool
-          tags: latest
+          tags: 2.x-dev
